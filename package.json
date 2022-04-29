@@ -74,7 +74,7 @@
     "extends": [
       "react-app",
       "react-app/jest",
-      "prettier"
+      "plugin:prettier/recommended"
     ]
   },
   "browserslist": {
@@ -94,11 +94,12 @@
     "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
     "node-sass": "^7.0.1",
-    "prettier": "2.6.2",
+    "prettier": "^2.6.2",
     "prettier-eslint": "^14.0.2"
   },
   "jest": {
